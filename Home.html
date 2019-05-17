@@ -1,0 +1,450 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>College</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+
+    <style>
+         a {           
+            font-size: 1.2em !important;
+            font-family: magra-bold-webfont !important;            
+         }
+          a:hover {
+                color: #f3e830 !important;
+            }
+          .border-success{
+              border-color: yellow !important;
+              border-width:0.2em !important;
+          }
+          h1 {
+            color: white;
+            font-size: 4em;
+            font-family: 'magra-bold-webfont';
+        }
+          .text-secondary{
+              color:#2461d6 !important;
+          }
+    </style>
+</head>
+
+<body>
+    <!--header-->
+    <div class="container-fluid" style="background-image: url('images/bg.jpg');background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover">
+        <!--menu-->
+        <div class="row justify-content-center">
+            <div class="col-11">
+                <nav class="mb-1 navbar navbar-expand-lg navbar-dark default-color text-white py-5 mt-4 border-bottom border-success" style="background-image:linear-gradient(to right,#1c5ed2,#2461d6,#496be9,#6272f5,#6e76fb);">
+                    <a class="navbar-brand ml-lg-3" href="#">
+                        <img class="img-fluid" src="images/logo.png" style="width:9em" />
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
+                            aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link mr-3" href="Home.html">
+                                    Home
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mr-3" href="#spec">Specializations</a>
+                            </li>
+                            <li class="nav-item mr-3">
+                                <a class="nav-link" href="#univ">Universities</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle mr-3" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+                                   aria-haspopup="true" aria-expanded="false">
+                                    Scholarships
+                                </a>
+                                <div class="dropdown-menu dropdown-default " aria-labelledby="navbarDropdownMenuLink-333">
+                                    <a class="dropdown-item" href="#">Local</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">International</a>
+                                </div>
+                            </li>
+                            <li class="nav-item mr-3">
+                                <a class="nav-link" href="ContactUs.html">Contact</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav ml-auto nav-flex-icons">
+                            <li class="nav-item">
+                                <a class="nav-link waves-effect waves-light">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link waves-effect waves-light">
+                                    <i class="fab fa-google-plus-g"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle mr-lg-3" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+                                   aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-user"></i>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right dropdown-default"
+                                     aria-labelledby="navbarDropdownMenuLink-333">
+                                    <div class="md-form mb-0 mx-2">
+                                        <input type="text" id="form-contact-name" class="form-control">
+                                        <label for="form-contact-name" class="">User Name</label>
+                                    </div>
+                                    <div class="md-form mb-0 mx-2">
+                                        <input type="text" id="form-contact-Password" class="form-control">
+                                        <label for="form-contact-name" class="">Password</label>
+                                    </div>
+                                    <a>Login</a>
+                                    <p class="pb-0 mb-0" style="font-size:0.1em; margin-left:0.5em;">You dont have account yet?<a class="pb-0 mb-0"  href="Register.html">Register</a></p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!--/menu-->
+
+        <!--topPage-->
+        <div class="row  ml-lg-5 pl-lg-3 mt-lg-5 py-5 mt-md-2 text-white text-center text-lg-left ">
+            
+            <div class="col-lg-5 col-md-11">
+                <h1>Choose Your Way</h1>
+                <p>If you go to work on your goals, your goals will go to work on you. If you go to work on your plan, your plan will go to work on you. Whatever good things we build end up building us.</p>
+                <p>
+                    <img class="img-fluid  rounded-circle" src="images/jim-rohn.jpg" /> &nbsp; By:Jim Rohn
+                </p>
+            </div>
+        </div>
+        <!--/toppage-->
+    </div>
+    <!--header-->
+
+
+
+    <!--Search Form-->
+    <div class="container-fluid mb-3 " style="margin-top:-5em;">
+        <div class="row justify-content-center">
+            <div class="col-11 ">
+
+                <div class="navbar text-white py-3 mt-4" style="background-color:#1d1d1d !important; ">
+                    <h4 class="ml-5 pl-3 mb-4">Search your Specialization</h4>
+                    <form>
+                        <div class="form-row px-lg-5 ">
+                            <div class="  col-sm-12 col-lg px-lg-5 mb-2 mb-md-0 ">
+                                <input type="text" placeholder="Specialization" id="Specialization" class="form-control" />
+                            </div>
+                            <div class="pb-sm-2  col-sm-12 col-lg px-lg-5 mb-2 mb-md-0">
+                                <input type="text" placeholder="University" id="University" class="form-control" />
+                            </div>
+                            <div class="pb-sm-2  col-sm-6 col-lg px-lg-5 mb-2 mb-md-0">
+                                <input type="text" placeholder="City" id="City" class="form-control" />
+                            </div>
+                            <div class="pb-sm-3  col-sm-6 col-lg px-lg-5 mb-2 mb-md-0">
+                                <input type="text" placeholder="Level" id="Level" class="form-control" />
+                            </div>
+                            <div class=" col-md-12 col-lg px-lg-2 ">
+                                <button class="btn btn-info " type="submit" style="width:12em; margin-top:-0.35em;background-color:#2461d6 !important;"> <a>Search</a> </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--/Search FOrm-->
+
+    <!--Universities-->
+    <div class="container mt-5 " id="univ">
+        <div class="row mb-5 pb-5  justify-content-center">
+            <a name="univ"><h2 class="text-secondary" style="font-size:3em;">Universities</h2></a>
+        </div>
+
+        <div class="row justify-content-center">
+
+            <div class=" col-md-4 col-lg-2 text-center">
+                <img class="w-50 img-fluid" src="images/universities/Untitled-1.png" />
+            </div>
+            <div class="col-lg-4 col-md-8">
+                <h4 class="mt-4 mt-lg-0 text-center text-lg-left">Al-Azhar University – Gaza</h4>
+                <p class=" text-center text-lg-left">often abbreviated AUG, is a Palestinian, public, non-profit and independent higher education institution. During the first intifada, the Palestinian Leader Yasser Arafat issued a decree in September 1991 to establish a Palestinian national university.</p>
+            </div>
+            <div class="col-md-4 col-lg-2 text-center">
+                <img class="w-50 img-fluid" src="images/universities/Untitled-2.png" />
+            </div>
+
+            <div class="col-lg-4 col-md-8">
+                <h4 class="mt-4 mt-lg-0 text-center text-lg-left">Al-Quds Open University</h4>
+                <p class=" text-center text-lg-left">is an independent public university. It was established in Amman, Jordan, by a decree issued by the Palestinian Liberation Organization (PLO) and started operating in Palestine in 1991.</p>
+            </div>
+
+        </div>
+
+
+
+        <div class="row my-5 justify-content-center">
+
+            <div class="col-md-4 col-lg-2 text-center">
+                <img class="w-50 img-fluid" src="images/universities/Untitled-3.png" />
+            </div>
+            <div class="col-lg-4 col-md-8">
+                <h4 class="mt-4 mt-lg-0 text-center text-lg-left">The Islamic University of Gaza</h4>
+                <p class=" text-center text-lg-left"> also known as IUG, IU Gaza and The University of Gaza, is an independent Palestinian university established in 1978 in Gaza City. The university has ten faculties capable of awarding B.A., B.Sc., M.A., and M.Sc. diplomas and higher diplomas.</p>
+            </div>
+            <div class="col-md-4 col-lg-2 text-center">
+                <img class="w-75 img-fluid rounded-circle" src="images/universities/تنزيل.jpg" />
+            </div>
+
+            <div class="col-lg-4 col-md-8">
+                <h4 class="mt-4 mt-lg-0 text-center text-lg-left">Al-Aqsa University</h4>
+                <p class=" text-center text-lg-left"> is a Palestinian university established in 1955 in the Gaza Strip, Palestine.Established in 1955 as the first higher education institution, Alaqsa University is the oldest governmental higher education institution.It caters for some 26000 students and has some 1400 employees, 300 out of them are lecturers and professors.</p>
+            </div>
+
+        </div>
+        <div class="row justify-content-center text-white">
+            <div class=" btn rounded" style="background-image:linear-gradient(to right,#6e76fb,#6272f5,#496be9,#2461d6,#1c5ed2,#2461d6,#496be9,#6272f5,#6e76fb);width:15em">
+                <a style="color:white;" href="Universities.html">See More <i class="fa fa-angle-right"></i></a>
+            </div>
+        </div>
+    </div>
+    <!--Universities-->
+
+
+    <!--Quets-->
+    <div class="container-fluid my-5 py-5" style="background-image: url('images/review-bg.jpg');background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover">
+        <div class="row justify-content-center mb-5">
+            
+                <h2 style="color:white;font-size:2em;font-family:'Times New Roman'">  Dear Students</h2>
+            
+        </div>
+
+        <div class="row justify-content-center mb-2">
+            <div class="col-lg-6 col-md-12">
+                <p style="color:white;font-size:1em;font-family:Georgia, 'Times New Roman', Times, serif">
+                    Life is the most exciting opportunity we have. But we have one shot. You graduate from college once, and that's it. You're going out of that nest. And you have to find that courage that's deep, deep, deep in there. Every step of the way.
+
+                </p>
+              
+            </div>
+        </div>
+
+        <div class="row justify-content-center mb-5">
+            
+                <img class="img-fluid  rounded-circle" src="images/Andrew-Shue-pic.jpg" />
+            
+              
+        </div>
+        <div class="row justify-content-center ">
+            
+                <h2 style="color:white;font-size:1.2em;font-family:'Times New Roman'"> Let Our WebSite Help You Finding Your Way</h2>
+            
+        </div>
+    </div>
+
+    <!--Quets-->
+
+
+
+    <!--Speacilization-->
+    <div class="container"id="spec">
+        <div class="row mb-5 pb-5  justify-content-center">
+            <a><h2 class="text-secondary" style="font-size:3em;">Specializations</h2></a>
+        </div>
+
+
+        <div class="card-deck">
+
+
+            <div class="card mb-4">
+
+
+                <div class="view overlay">
+                    <img class="card-img-top img-fluid" style="height:25em;" src="images/jobs/doctor-img2.png" alt="Card image cap">
+                    <a href="#!">
+                        <div class="mask rgba-white-slight"></div>
+                    </a>
+                </div>
+
+                <!--Card content-->
+                <div class="card-body text-center">
+
+
+                    <h4 class="card-title">Medicine</h4>
+
+                    <button type="button" class="btn btn-blue btn-md ">Read About <i class="fa fa-angle-right"></i></button>
+
+                </div>
+
+            </div>
+            <!-- Card -->
+            <!-- Card -->
+            <div class="card mb-4  ">
+
+                <!--Card image-->
+                <div class="view overlay">
+                    <img class="card-img-top img-fluid" style="height:25em;" src="images/jobs/shutterstock_125380271.jpg" alt="Card image cap">
+                    <a href="#!">
+                        <div class="mask rgba-white-slight"></div>
+                    </a>
+                </div>
+
+                <!--Card content-->
+                <div class="card-body text-center">
+
+                    <!--Title-->
+                    <h4 class="card-title">Engeenering</h4>
+
+                    <button type="button" class="btn btn-blue btn-md">Read About <i class="fa fa-angle-right"></i></button>
+
+                </div>
+
+            </div>
+            <!-- Card -->
+            <!-- Card -->
+            <div class="card mb-4">
+                
+                <!--Card image-->
+                <div class="view overlay">
+                    <img class="card-img-top img-fluid" style="height:25em;" src="images/jobs/hotcop.jpg" alt="Card image cap">
+                    <a href="#!">
+                        <div class="mask rgba-white-slight"></div>
+                    </a>
+                </div>
+
+                <!--Card content-->
+                <div class="card-body text-center">
+
+                    <!--Title-->
+                    <h4 class="card-title">Police</h4>
+
+                    <button type="button" class="btn btn-blue btn-md">Read About <i class="fa fa-angle-right"></i></button>
+
+                </div>
+
+            </div>
+            <!-- Card -->
+
+        </div>
+        <!-- Card deck -->
+
+        <div class="row justify-content-center text-white my-5">
+            <div class=" btn rounded" style="background-image:linear-gradient(to right,#6e76fb,#6272f5,#496be9,#2461d6,#1c5ed2,#2461d6,#496be9,#6272f5,#6e76fb);width:15em">
+                <a style="color:white;" href="Speaacilization.html">See More <i class="fa fa-angle-right"></i></a>
+            </div>
+        </div>
+    </div>
+    <!--Speacilization-->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Stay Updated-->
+    <div class="container-fluid py-5 px-5" style="background-image: url('images/newslatter-bg.jpg');background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover">
+        <div class="row pt-5 justify-content-center">
+            <div class="col-lg-4 col-md-12" style="margin-top:-1em">
+                <p style="color:white;font-size:3em;">Stay Updated</p>
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" id="YourEmail" placeholder="Enter Your Email" />
+
+            </div>
+            <div class="col">
+                <button class="btn btn-info" type="submit" style="width:12em; margin-top:-0.35em;background-color:#2461d6 !important;">Subscribe <i class="fa fa-angle-right"></i></button>
+
+            </div>
+        </div>
+        <div class="row justify-content-lg-center justify-content-md-start" >
+            <p style="color:white;font-size:0.9em;">We'll let you know when new grants are available</p>
+        </div>
+
+    </div>
+    <!--Stay Updated-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--footer-->
+    <div class="container-fluid py-1" style="background-color:#1d1d1d !important;">
+        <div class="row justify-content-center text-white pt-2">
+
+            <a style="color:white;" href="#">
+                <div class=" btn rounded" style="background-image:linear-gradient(to right,#6e76fb,#6272f5,#496be9,#2461d6,#1c5ed2,#2461d6,#496be9,#6272f5,#6e76fb);width:15em ">
+                    Top
+                </div>
+            </a>
+        </div>
+        <div class="dropdown-divider"></div>
+
+        <p class="text-white text-center" style="font-size:0.5em; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">&copy; ALL Rights Reserved 2019</p>
+
+    </div>
+    <!--/footer-->
+
+
+
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
+
+</html>

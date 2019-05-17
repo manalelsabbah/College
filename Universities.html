@@ -1,0 +1,450 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+
+    <style>
+         a {           
+            font-size: 1.2em;
+            font-family: magra-bold-webfont;            
+         }
+          a:hover {
+                color: #f3e830 !important;
+            }
+         .border-success{
+              border-color: yellow !important;
+              border-width:0.2em !important;
+          }
+          .text-secondary{
+              color:#2461d6 !important;
+          }
+    </style>
+</head>
+
+<body>
+    <!--header-->
+    <div class="container-fluid" style="background-image: url('images/progress-bg.jpg'); background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover">
+        <!--menu-->
+        <div class="row justify-content-center">
+            <div class="col-11">
+                <nav class="mb-1 navbar navbar-expand-lg navbar-dark default-color text-white py-5 mt-4 border-bottom border-success" style="background-image:linear-gradient(to right,#1c5ed2,#2461d6,#496be9,#6272f5,#6e76fb);">
+                    <a class="navbar-brand ml-lg-3" href="#">
+                        <img class="img-fluid" src="images/logo.png" style="width:9em" />
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
+                            aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link mr-3" href="Home.html">
+                                    Home
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mr-3" href="Speaacilization.html">Specializations</a>
+                            </li>
+                            <li class="nav-item mr-3">
+                                <a class="nav-link" href="Universities.html">Universities</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle mr-3" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+                                   aria-haspopup="true" aria-expanded="false">
+                                    Scholarships
+                                </a>
+                                <div class="dropdown-menu dropdown-default " aria-labelledby="navbarDropdownMenuLink-333">
+                                    <a class="dropdown-item" href="#">Local</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">International</a>
+                                </div>
+                            </li>
+                            <li class="nav-item mr-3">
+                                <a class="nav-link" href="ContactUs.html">Contact</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav ml-auto nav-flex-icons">
+                            <li class="nav-item">
+                                <a class="nav-link waves-effect waves-light">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link waves-effect waves-light">
+                                    <i class="fab fa-google-plus-g"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle mr-lg-3" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+                                   aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-user"></i>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right dropdown-default"
+                                     aria-labelledby="navbarDropdownMenuLink-333">
+                                    <div class="md-form mb-0 mx-2">
+                                        <input type="text" id="form-contact-name" class="form-control">
+                                        <label for="form-contact-name" class="">User Name</label>
+                                    </div>
+                                    <div class="md-form mb-0 mx-2">
+                                        <input type="text" id="form-contact-Password" class="form-control">
+                                        <label for="form-contact-name" class="">Password</label>
+                                    </div>
+                                    <a>Login</a>
+                                    <p class="pb-0 mb-0" style="font-size:0.1em; margin-left:0.5em;">You dont have account yet?<a class="pb-0 mb-0" style="font-size:0.1em;" href="#">Register</a></p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!--/menu-->
+        <!--topPage-->
+
+        <div class="row py-5  justify-content-center">
+            <a class="py-5"><h2 class="text-white" style="font-size:3em;">Universities</h2></a>
+        </div>
+
+        <!--/toppage-->
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!--Search Form-->
+    <div class="container-fluid mb-3 " style="margin-top:-5em;">
+        <div class="row justify-content-center">
+            <div class="col-11 ">
+
+                <div class="navbar text-white py-3 mt-4" style="background-color:#1d1d1d !important; ">
+                    <h4 class="ml-5 pl-3 mb-4">Search your Specialization</h4>
+                    <form>
+                        <div class="form-row px-lg-5 ">
+                            <div class="  col-sm-12 col-lg px-lg-5 mb-2 mb-md-0 ">
+                                <input type="text" placeholder="Specialization" id="Specialization" class="form-control" />
+                            </div>
+                            <div class="pb-sm-2  col-sm-12 col-lg px-lg-5 mb-2 mb-md-0">
+                                <input type="text" placeholder="University" id="University" class="form-control" />
+                            </div>
+                            <div class="pb-sm-2  col-sm-6 col-lg px-lg-5 mb-2 mb-md-0">
+                                <input type="text" placeholder="City" id="City" class="form-control" />
+                            </div>
+                            <div class="pb-sm-3  col-sm-6 col-lg px-lg-5 mb-2 mb-md-0">
+                                <input type="text" placeholder="Level" id="Level" class="form-control" />
+                            </div>
+                            <div class=" col-md-12 col-lg px-lg-2 ">
+                                <button class="btn btn-info " type="submit" style="width:12em; margin-top:-0.35em;background-color:#2461d6 !important;"> <a>Search</a> </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--/Search FOrm-->
+
+
+
+
+
+
+
+
+
+
+    <div class="container my-5 ">
+        <!-- Card deck -->
+        <div class="row">
+            <div class="card-deck">
+
+                <!-- Card -->
+                <div class="card py-4 align-self-center ">
+
+                    <!--Card image-->
+                    <img class="w-50 img-fluid card-img-top align-self-center" src="images/universities/Untitled-2.png" />
+
+
+                    <!--Card content-->
+                    <div class="card-body text-center">
+
+                        <!--Title-->
+                        <h4 class="card-title">Al-Quds Open University</h4>
+                        <!--Text-->
+                        <p class="card-text">is an independent public university. It was established in Amman, Jordan, by a decree issued by the Palestinian Liberation Organization (PLO) and started operating in Palestine in 1991.</p>
+                        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                        <button type="button" class="btn btn-blue btn-md mt-4">More Information</button>
+
+                    </div>
+
+                </div>
+                <!-- Card -->
+                <!-- Card -->
+                <div class="card align-self-center">
+
+                    <!--Card image-->
+                    <img class="w-50 img-fluid card-img-top align-self-center" src="images/universities/Untitled-3.png" />
+
+
+                    <!--Card content-->
+                    <div class="card-body text-center">
+
+                        <!--Title-->
+                        <h4 class="card-title">The Islamic University of Gaza</h4>
+                        <!--Text-->
+                        <p class="card-text">also known as IUG, IU Gaza and The University of Gaza, is an independent Palestinian university established in 1978 in Gaza City. The university has ten faculties capable of awarding B.A., B.Sc., M.A., and M.Sc. diplomas and higher diplomas.</p>
+                        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                        <button type="button" class="btn btn-blue btn-md">More Information</button>
+
+                    </div>
+
+                </div>
+                <!-- Card -->
+                <!-- Card -->
+                <div class="card  align-self-center">
+
+                    <!--Card image-->
+                    <img class="w-50 img-fluid card-img-top align-self-center " src="images/universities/Untitled-1.png" />
+
+
+                    <!--Card content-->
+                    <div class="card-body text-center">
+
+                        <!--Title-->
+                        <h4 class="card-title">Al-Azhar University – Gaza</h4>
+                        <!--Text-->
+                        <p class="card-text">often abbreviated AUG, is a Palestinian, public, non-profit and independent higher education institution. During the first intifada, the Palestinian Leader Yasser Arafat issued a decree in September 1991 to establish a Palestinian national university.</p>
+                        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                        <button type="button" class="btn btn-blue btn-md">More Information</button>
+
+                    </div>
+
+                </div>
+                <!-- Card -->
+
+            </div>
+            <!-- Card deck -->
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="container my-5 ">
+        <!-- Card deck -->
+        <div class="row">
+            <div class="card-deck">
+
+                <!-- Card -->
+                <div class="card py-4 align-self-center ">
+
+                    <!--Card image-->
+                    <img class="w-50 img-fluid card-img-top align-self-center" src="images/universities/Untitled-2.png" />
+
+
+                    <!--Card content-->
+                    <div class="card-body text-center">
+
+                        <!--Title-->
+                        <h4 class="card-title">Al-Quds Open University</h4>
+                        <!--Text-->
+                        <p class="card-text">is an independent public university. It was established in Amman, Jordan, by a decree issued by the Palestinian Liberation Organization (PLO) and started operating in Palestine in 1991.</p>
+                        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                        <button type="button" class="btn btn-blue btn-md mt-4">More Information</button>
+
+                    </div>
+
+                </div>
+                <!-- Card -->
+                <!-- Card -->
+                <div class="card align-self-center">
+
+                    <!--Card image-->
+                    <img class="w-50 img-fluid card-img-top align-self-center" src="images/universities/Untitled-3.png" />
+
+
+                    <!--Card content-->
+                    <div class="card-body text-center">
+
+                        <!--Title-->
+                        <h4 class="card-title">The Islamic University of Gaza</h4>
+                        <!--Text-->
+                        <p class="card-text">also known as IUG, IU Gaza and The University of Gaza, is an independent Palestinian university established in 1978 in Gaza City. The university has ten faculties capable of awarding B.A., B.Sc., M.A., and M.Sc. diplomas and higher diplomas.</p>
+                        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                        <button type="button" class="btn btn-blue btn-md">More Information</button>
+
+                    </div>
+
+                </div>
+                <!-- Card -->
+                <!-- Card -->
+                <div class="card  align-self-center">
+
+                    <!--Card image-->
+                    <img class="w-50 img-fluid card-img-top align-self-center " src="images/universities/Untitled-1.png" />
+
+
+                    <!--Card content-->
+                    <div class="card-body text-center">
+
+                        <!--Title-->
+                        <h4 class="card-title">Al-Azhar University – Gaza</h4>
+                        <!--Text-->
+                        <p class="card-text">often abbreviated AUG, is a Palestinian, public, non-profit and independent higher education institution. During the first intifada, the Palestinian Leader Yasser Arafat issued a decree in September 1991 to establish a Palestinian national university.</p>
+                        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                        <button type="button" class="btn btn-blue btn-md">More Information</button>
+
+                    </div>
+
+                </div>
+                <!-- Card -->
+
+            </div>
+            <!-- Card deck -->
+
+        </div>
+    </div>
+
+
+
+
+
+    <div class="container my-5 ">
+        <!-- Card deck -->
+        <div class="row">
+            <div class="card-deck">
+
+                <!-- Card -->
+                <div class="card py-4 align-self-center ">
+
+                    <!--Card image-->
+                    <img class="w-50 img-fluid card-img-top align-self-center" src="images/universities/Untitled-2.png" />
+
+
+                    <!--Card content-->
+                    <div class="card-body text-center">
+
+                        <!--Title-->
+                        <h4 class="card-title">Al-Quds Open University</h4>
+                        <!--Text-->
+                        <p class="card-text">is an independent public university. It was established in Amman, Jordan, by a decree issued by the Palestinian Liberation Organization (PLO) and started operating in Palestine in 1991.</p>
+                        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                        <button type="button" class="btn btn-blue btn-md mt-4">More Information</button>
+
+                    </div>
+
+                </div>
+                <!-- Card -->
+                <!-- Card -->
+                <div class="card align-self-center">
+
+                    <!--Card image-->
+                    <img class="w-50 img-fluid card-img-top align-self-center" src="images/universities/Untitled-3.png" />
+
+
+                    <!--Card content-->
+                    <div class="card-body text-center">
+
+                        <!--Title-->
+                        <h4 class="card-title">The Islamic University of Gaza</h4>
+                        <!--Text-->
+                        <p class="card-text">also known as IUG, IU Gaza and The University of Gaza, is an independent Palestinian university established in 1978 in Gaza City. The university has ten faculties capable of awarding B.A., B.Sc., M.A., and M.Sc. diplomas and higher diplomas.</p>
+                        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                        <button type="button" class="btn btn-blue btn-md">More Information</button>
+
+                    </div>
+
+                </div>
+                <!-- Card -->
+                <!-- Card -->
+                <div class="card  align-self-center">
+
+                    <!--Card image-->
+                    <img class="w-50 img-fluid card-img-top align-self-center " src="images/universities/Untitled-1.png" />
+
+
+                    <!--Card content-->
+                    <div class="card-body text-center">
+
+                        <!--Title-->
+                        <h4 class="card-title">Al-Azhar University – Gaza</h4>
+                        <!--Text-->
+                        <p class="card-text">often abbreviated AUG, is a Palestinian, public, non-profit and independent higher education institution. During the first intifada, the Palestinian Leader Yasser Arafat issued a decree in September 1991 to establish a Palestinian national university.</p>
+                        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                        <button type="button" class="btn btn-blue btn-md">More Information</button>
+
+                    </div>
+
+                </div>
+                <!-- Card -->
+
+            </div>
+            <!-- Card deck -->
+
+        </div>
+
+        <div class="row justify-content-center text-white my-5">
+            <div class=" btn rounded" style="background-image:linear-gradient(to right,#6e76fb,#6272f5,#496be9,#2461d6,#1c5ed2,#2461d6,#496be9,#6272f5,#6e76fb);width:15em">
+                <a>Load More <i class="fa fa-angle-right"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--footer-->
+    <div class="container-fluid py-1" style="background-color:#1d1d1d !important;">
+        <div class="row justify-content-center text-white pt-2">
+
+            <a style="color:white;" href="#">
+                <div class=" btn rounded" style="background-image:linear-gradient(to right,#6e76fb,#6272f5,#496be9,#2461d6,#1c5ed2,#2461d6,#496be9,#6272f5,#6e76fb);width:15em ">
+                    Top
+                </div>
+            </a>
+        </div>
+        <div class="dropdown-divider"></div>
+
+        <p class="text-white text-center" style="font-size:0.5em; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">&copy; ALL Rights Reserved 2019</p>
+
+    </div>
+    <!--/footer-->
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
+
+</html>
